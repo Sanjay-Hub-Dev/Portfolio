@@ -6,7 +6,7 @@ function Projects() {
 
   return (
     <section
-      ref={ref}
+      ref={ref} id="projects"
       className={`max-w-6xl mx-auto px-6 py-24 transition-all duration-700 ${
         visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
